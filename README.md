@@ -49,10 +49,6 @@ See the project `LICENSE` file for license details.
 
 The Online Voting System, built with Java using Spring MVC, is a web-based software that allows administrators to manage elections and enables voters to participate in polls.
 
-## Demo
-
-https://github.com/UmerrAli/OnlineVotingSystem/assets/106273026/7c7e80de-23da-4d77-b7c9-1cba2f73ecad
-
 ## Run Locally
 To run this project on your system you need:
 - IDE (Eclipse or NetBeans or IntelliJ IDEA Ultimate)
