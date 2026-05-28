@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Poll Genie - Frontend Demo</title>
+  <meta name="description" content="Static frontend demo for the Online Voting System">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Poll Genie</h1>
+    <p>Online Voting System - Static Frontend for GitHub Pages</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Voter Login (Demo)</h2>
+      <form id="voterLoginForm">
+        <label for="voterName">Username</label>
+        <input id="voterName" type="text" required placeholder="Enter voter username">
+
+        <label for="voterPassword">Password</label>
+        <input id="voterPassword" type="password" required placeholder="Enter voter password">
+
+        <button type="submit">Login as Voter</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Admin Login (Demo)</h2>
+      <form id="adminLoginForm">
+        <label for="adminName">Username</label>
+        <input id="adminName" type="text" required placeholder="Enter admin username">
+
+        <label for="adminPassword">Password</label>
+        <input id="adminPassword" type="password" required placeholder="Enter admin password">
+
+        <button type="submit">Login as Admin</button>
+      </form>
+    </section>
+
+    <section class="card full">
+      <h2>Live Poll Demo</h2>
+      <p>This frontend stores votes in your browser using localStorage.</p>
+
+      <div class="options">
+        <button class="vote-btn" data-option="Candidate A">Vote Candidate A</button>
+        <button class="vote-btn" data-option="Candidate B">Vote Candidate B</button>
+        <button class="vote-btn" data-option="Candidate C">Vote Candidate C</button>
+      </div>
+
+      <div id="results" class="results"></div>
+      <button id="resetVotes" class="danger">Reset Demo Votes</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Backend APIs are not available on GitHub Pages. This is a static UI showcase.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
